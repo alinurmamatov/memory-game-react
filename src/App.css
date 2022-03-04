@@ -1,38 +1,53 @@
+body {
+  background-color: #faf9f9;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 900px;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  width: 150px;
+  height: 150px;
+  background-color: #f6bd60;
+  border: solid 1px #023e8a;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+.notShow {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  border: 1px solid grey;
 }
